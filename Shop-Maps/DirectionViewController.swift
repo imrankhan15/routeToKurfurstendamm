@@ -131,9 +131,9 @@ class DirectionViewController: UIViewController, MKMapViewDelegate, CLLocationMa
         let coordinate₀ = self.location
         let coordinate₁ = CLLocation(latitude: 52.5091577, longitude: 13.3315787)
         
-        let distanceInMeters = coordinate₀?.distance(from: coordinate₁)
+        let distanceInMeters = Int((coordinate₀?.distance(from: coordinate₁))!)
         
-        theLabel.text = "You are now " + (distanceInMeters?.description)! + " meter away from Kurfurstendamm, Germany"
+        theLabel.text = "You are now " + (distanceInMeters.description) + " meter away from Kurfurstendamm, Germany"
 
         
         //Span of the map
