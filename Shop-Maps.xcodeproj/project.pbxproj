@@ -166,6 +166,61 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		197D58DE222BBCFE004E0638 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				199FAF7E20866D4400F1F092 /* Record.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		197D58DF222BBD07004E0638 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1992880A206A77E700492BA2 /* icon.png */,
+				197ABCC42077C39B00035430 /* armani.png */,
+				197ABCC52077C39B00035430 /* D&G_Golden_Sneakers.png */,
+				197ABCC62077C39B00035430 /* escada.png */,
+				197ABCD82077C4C200035430 /* gucci.png */,
+				197ABCD92077C4C200035430 /* hermes.png */,
+				197ABCDA2077C4C200035430 /* hublot.png */,
+				197ABCDB2077C4C200035430 /* hugo.png */,
+				197ABCDC2077C4C200035430 /* jilsander.png */,
+				197ABCDD2077C4C200035430 /* zegna.png */,
+				197ABCCC2077C39B00035430 /* kurfurstendam.png */,
+				19E9E1E5204290600062D0EC /* Main.storyboard */,
+				19CC10C72088D40900B03F77 /* RecordsTableViewCell.swift */,
+				1950300B206A49E300F06F51 /* ShopsTableViewCell.swift */,
+				19E9E1E8204290600062D0EC /* Assets.xcassets */,
+				19E9E1EA204290600062D0EC /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		197D58E0222BBD0D004E0638 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19E9E1E1204290600062D0EC /* AppDelegate.swift */,
+				19E9E1E3204290600062D0EC /* ViewController.swift */,
+				19F2EA0C20A1DDE500E33FB5 /* recordAnswerViewController.swift */,
+				19D088232087BE4A009D1040 /* recordsViewController.swift */,
+				198A385920907E9A00D2FB3D /* recordItemViewController.swift */,
+				191617852071D57E00A6691A /* WebViewController.swift */,
+				19503009206A459B00F06F51 /* ShopsViewController.swift */,
+				1992880C206A79FC00492BA2 /* ShopsDetailViewController.swift */,
+				19847D10205E5B0500FC55AA /* DirectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		197D58E1222BBD35004E0638 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		19E9E1D5204290600062D0EC = {
 			isa = PBXGroup;
 			children = (
@@ -189,35 +244,13 @@
 		19E9E1E0204290600062D0EC /* Shop-Maps */ = {
 			isa = PBXGroup;
 			children = (
+				197D58DE222BBCFE004E0638 /* Model */,
+				197D58DF222BBD07004E0638 /* View */,
+				197D58E0222BBD0D004E0638 /* Controller */,
+				197D58E1222BBD35004E0638 /* Services */,
 				19E9E205204290D40062D0EC /* GoogleMapsCore.framework */,
 				19E9E203204290CB0062D0EC /* GoogleMaps.framework */,
 				19E9E201204290BC0062D0EC /* GoogleMapsBase.framework */,
-				19E9E1E1204290600062D0EC /* AppDelegate.swift */,
-				1992880A206A77E700492BA2 /* icon.png */,
-				197ABCC42077C39B00035430 /* armani.png */,
-				197ABCC52077C39B00035430 /* D&G_Golden_Sneakers.png */,
-				197ABCC62077C39B00035430 /* escada.png */,
-				197ABCD82077C4C200035430 /* gucci.png */,
-				197ABCD92077C4C200035430 /* hermes.png */,
-				197ABCDA2077C4C200035430 /* hublot.png */,
-				197ABCDB2077C4C200035430 /* hugo.png */,
-				197ABCDC2077C4C200035430 /* jilsander.png */,
-				197ABCDD2077C4C200035430 /* zegna.png */,
-				197ABCCC2077C39B00035430 /* kurfurstendam.png */,
-				19E9E1E3204290600062D0EC /* ViewController.swift */,
-				19E9E1E5204290600062D0EC /* Main.storyboard */,
-				19F2EA0C20A1DDE500E33FB5 /* recordAnswerViewController.swift */,
-				19D088232087BE4A009D1040 /* recordsViewController.swift */,
-				198A385920907E9A00D2FB3D /* recordItemViewController.swift */,
-				19CC10C72088D40900B03F77 /* RecordsTableViewCell.swift */,
-				199FAF7E20866D4400F1F092 /* Record.swift */,
-				191617852071D57E00A6691A /* WebViewController.swift */,
-				1950300B206A49E300F06F51 /* ShopsTableViewCell.swift */,
-				19503009206A459B00F06F51 /* ShopsViewController.swift */,
-				1992880C206A79FC00492BA2 /* ShopsDetailViewController.swift */,
-				19847D10205E5B0500FC55AA /* DirectionViewController.swift */,
-				19E9E1E8204290600062D0EC /* Assets.xcassets */,
-				19E9E1EA204290600062D0EC /* LaunchScreen.storyboard */,
 				19E9E1ED204290600062D0EC /* Info.plist */,
 			);
 			path = "Shop-Maps";
